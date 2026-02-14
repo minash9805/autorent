@@ -900,9 +900,10 @@ body {
 }
 
 .box-10-bottom-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+   display: grid;
+   grid-template-columns: 20% 50%;
+   justify-content: center;
+   align-items: center;
     column-gap: 20px;
     border: 1px solid #D7D7D7;
     background-color: white;
@@ -917,6 +918,9 @@ body {
 .box-10-bottom-item-right {
     display: flex;
     align-items: center;
+}
+.box-10-bottom-item-left{
+    height: fit-content;
 }
 
 .box-10-bottom-item-left h4 {
